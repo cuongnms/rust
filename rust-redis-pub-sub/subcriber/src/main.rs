@@ -2,10 +2,7 @@ use redis::{Commands, RedisError};
 
 #[tokio::main]
 async fn main() -> Result<(), RedisError>{
-    println!("Hello, world!");
     let client = redis::Client::open("redis://127.0.0.1").unwrap();
-
-    let mut pub_con = client.get_connection().unwrap();
 
     let mut sub_con = client.get_connection().unwrap();
     let mut pub_sub = sub_con.as_pubsub();
@@ -13,7 +10,6 @@ async fn main() -> Result<(), RedisError>{
     let channel = String::from("Test");
 
     pub_sub.subscribe(&channel)?;
-    pub_con.publish(&channel, String::from("Hello world"))?;
 
     loop {
 
