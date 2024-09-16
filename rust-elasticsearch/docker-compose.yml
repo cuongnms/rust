@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  elasticsearch:
+    image: elasticsearch:7.17.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+    ports:
+      - 9200:9200
+      - 9300:9300
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+  
+  load-data:
+    image: appropriate/curl
+    container_name: load-data
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      
+    entrypoint: >
+      sh -c '
+      echo "Waiting for Elasticsearch to be ready...";
+      sleep 10;
+      curl -H "Content-Type: application/json" -XPOST "http://elasticsearch:9200/_bulk?pretty" --data-binary "@/data.json";
+      echo "Data loaded"
+      '
+    
+    volumes:
+      - ./data.json:/data.json

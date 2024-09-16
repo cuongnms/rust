@@ -1,0 +1,40 @@
+{ "index" : { "_index" : "books", "_id" : "1" } }
+{ "title" : "The Great Gatsby", "author" : "F. Scott Fitzgerald", "genre" : "Classic", "summary" : "A novel about the American dream." }
+{ "index" : { "_index" : "books", "_id" : "2" } }
+{ "title" : "To Kill a Mockingbird", "author" : "Harper Lee", "genre" : "Classic", "summary" : "A novel about racial injustice." }
+{ "index" : { "_index" : "books", "_id" : "3" } }
+{ "title" : "1984", "author" : "George Orwell", "genre" : "Dystopian", "summary" : "A novel about a totalitarian regime." }
+{ "index" : { "_index" : "books", "_id" : "4" } }
+{ "title" : "Pride and Prejudice", "author" : "Jane Austen", "genre" : "Romance", "summary" : "A novel about manners and matrimonial machinations." }
+{ "index" : { "_index" : "books", "_id" : "5" } }
+{ "title" : "The Catcher in the Rye", "author" : "J.D. Salinger", "genre" : "Classic", "summary" : "A novel about teenage rebellion." }
+{ "index" : { "_index" : "books", "_id" : "6" } }
+{ "title" : "The Hobbit", "author" : "J.R.R. Tolkien", "genre" : "Fantasy", "summary" : "A novel about a hobbit's adventure." }
+{ "index" : { "_index" : "books", "_id" : "7" } }
+{ "title" : "Fahrenheit 451", "author" : "Ray Bradbury", "genre" : "Dystopian", "summary" : "A novel about a future society where books are banned." }
+{ "index" : { "_index" : "books", "_id" : "8" } }
+{ "title" : "Moby-Dick", "author" : "Herman Melville", "genre" : "Adventure", "summary" : "A novel about a sea captain's obsession with a white whale." }
+{ "index" : { "_index" : "books", "_id" : "9" } }
+{ "title" : "War and Peace", "author" : "Leo Tolstoy", "genre" : "Historical", "summary" : "A novel about the French invasion of Russia." }
+{ "index" : { "_index" : "books", "_id" : "10" } }
+{ "title" : "The Odyssey", "author" : "Homer", "genre" : "Epic", "summary" : "An epic poem about Odysseus' journey home." }
+{ "index" : { "_index" : "books", "_id" : "11" } }
+{ "title" : "The Sun Also Rises", "author" : "Ernest Hemingway", "genre" : "Classic", "summary" : "A novel about the Lost Generation." }
+{ "index" : { "_index" : "books", "_id" : "12" } }
+{ "title" : "Brave New World", "author" : "Aldous Huxley", "genre" : "Dystopian", "summary" : "A novel about a futuristic society." }
+{ "index" : { "_index" : "books", "_id" : "13" } }
+{ "title" : "Anna Karenina", "author" : "Leo Tolstoy", "genre" : "Classic", "summary" : "A novel about love and society." }
+{ "index" : { "_index" : "books", "_id" : "14" } }
+{ "title" : "The Grapes of Wrath", "author" : "John Steinbeck", "genre" : "Classic", "summary" : "A novel about the Great Depression." }
+{ "index" : { "_index" : "books", "_id" : "15" } }
+{ "title" : "The Brothers Karamazov", "author" : "Fyodor Dostoevsky", "genre" : "Philosophical", "summary" : "A novel about family and faith." }
+{ "index" : { "_index" : "books", "_id" : "16" } }
+{ "title" : "Crime and Punishment", "author" : "Fyodor Dostoevsky", "genre" : "Philosophical", "summary" : "A novel about guilt and redemption." }
+{ "index" : { "_index" : "books", "_id" : "17" } }
+{ "title" : "Les Misérables", "author" : "Victor Hugo", "genre" : "Historical", "summary" : "A novel about justice and redemption." }
+{ "index" : { "_index" : "books", "_id" : "18" } }
+{ "title" : "Madame Bovary", "author" : "Gustave Flaubert", "genre" : "Classic", "summary" : "A novel about the struggles of a doctor's wife." }
+{ "index" : { "_index" : "books", "_id" : "19" } }
+{ "title" : "The Divine Comedy", "author" : "Dante Alighieri", "genre" : "Epic", "summary" : "An epic poem about the afterlife." }
+{ "index" : { "_index" : "books", "_id" : "20" } }
+{ "title" : "The Iliad", "author" : "Homer", "genre" : "Epic", "summary" : "An epic poem about the Trojan War." }
